@@ -1,0 +1,169 @@
+
+.bl-background {
+    background: #cdcbcb;
+    background-position: cover;
+    padding: 20px;
+    width: 100%;
+    min-width: 100px;
+}
+
+.bl-list {
+    background: white;
+    display: inline-block;
+    width:75%;
+    height: auto;
+    
+}
+
+input[type=text] {
+    width:90%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-right-color: white;
+    display: inline-block;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.bl-bought {
+    background: white;
+    display:inline-block;   
+    width:22%;
+    padding: 10px;
+    float:right;
+    margin-right: 10px;
+}
+.bl-row{
+    display: inline;
+    padding: 5px;
+   
+}
+.bl-product{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    width:30%;
+   
+}
+.bl-count{
+    display: inline-block;
+}
+.bl-buttons{
+    display: inline-block;
+    float:right;
+}
+
+.bl-boughted{
+    margin-left: 200px;
+    width: 80px;
+    height: 29px;
+    border-radius: 4px;
+}
+
+.bl-boughted:hover{
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.bl-plus:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.bl-cancel:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.button2{
+    display: inline-block;
+    width:10%;
+    float: right;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 7px 0;
+    background-color: dodgerblue;
+    border-radius: 4px;
+
+}
+
+
+/*Кнопки*/
+.bl-label {
+    background: #cdcbcb;
+    border-radius:25%;
+    width: 25px;
+    height: 25px;
+    border:none;
+    padding: 5px;
+    font-size: 16px;
+    
+
+}
+
+.bl-label1{
+    background-color:#cdcbcb ;
+    display:inline-block;
+    border-radius:50%
+    font-size: 16px;
+    padding:5px;
+        
+    
+}
+.bl-plus {
+    background-color: chartreuse;
+    margin: 2px;
+    border-radius:50%;
+    width: 25px;
+    height: 25px;
+    border:none;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    cursor:pointer;
+    
+  
+}
+.bl-boughtBag {
+    background-color: darkorange;
+    margin: 2px;
+    border-radius:50%;
+    width: 15px;
+    height: 15px;
+    border:none;
+    text-align: center;
+    font-size: 10px;
+    color:white;
+    cursor:pointer;
+    
+  
+}
+.bl-mines {
+    background-color:indianred;
+    margin: 2px;
+    border-radius:50%;
+    width: 25px;
+    height: 25px;
+    border:none;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    cursor:pointer;
+}
+.bl-cancel {
+    background-color: indianred;
+    border-radius:25%;
+    width: 29px;
+    border:none;
+    height: 29px;
+    margin-right:5px; 
+    margin-left:5px; 
+    font-size: 16px;
+    color:white;
+    float:right;
+}
